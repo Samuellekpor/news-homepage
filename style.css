@@ -17,3 +17,37 @@
   font-family: "Inter-ExtraBold";
   src: url('./assets/fonts/static/Inter-ExtraBold.ttf');
 }
+
+body {
+  margin: 20px 15px;
+  font-family: "Inter-regular", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome-img {
+  width: 375px;
+}
+
+.title {
+  font-size: 45px;
+  margin-right: 15px;
+  font-family: "Inter-ExtraBold", sans-serif;
+}
+
+.description {
+  font-size: 15px;
+}
+
+.btn {
+  padding: 8px 20px;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 0%;
+  font-size: 14px;
+  background-color: hsl(5, 85%, 63%);
+  color: hsl(0, 0%, 100%);
+}
