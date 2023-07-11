@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Frontend Mentor | News homepage</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -19,17 +20,22 @@
     <div class="header">
       <img src="./assets/images/logo.svg" alt="logo-img" class="logo">
       <nav class="navbar">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">New</a></li>
-          <li><a href="#">Popular</a></li>
-          <li><a href="#">Trending</a></li>
-          <li><a href="#">Categories</a></li>
+        <ul class="menu">
+          <li><a class="menuItem" href="#">Home</a></li>
+          <li><a class="menuItem" href="#">New</a></li>
+          <li><a class="menuItem" href="#">Popular</a></li>
+          <li><a class="menuItem" href="#">Trending</a></li>
+          <li><a class="menuItem" href="#">Categories</a></li>
         </ul>
+        <button class="hamburger">
+          <!-- material icons https://material.io/resources/icons/ -->
+          <i class="menuIcon material-icons">menu</i>
+          <i class="closeIcon material-icons">close</i>
+        </button>
       </nav>
     </div>
     <div class="welcome-section">
-      <img src="./assets/images/image-web-3-mobile.jpg" alt="" class="welcome-img">
+      <img src="./assets/images/image-web-3-mobile.jpg" alt="welcome-img" class="welcome-img">
       <div class="welcome-info">
         <h1 class="title">The Bright Future of Web 3.0?</h1>
         <p class="description">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
@@ -87,5 +93,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+  <script src="index.js"></script>
 </body>
 </html>

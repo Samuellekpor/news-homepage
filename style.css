@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -23,17 +24,75 @@ body {
   font-family: "Inter-regular", sans-serif;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.welcome-img {
+.big-container {
   width: 375px;
 }
 
+.logo {
+  width: 40px;
+  height: 25px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.closeIcon {
+  display: none;
+}
+
+.menuItem {
+  display: block;
+  margin: 2rem 4rem;
+  font-size: 1.8rem;
+  color: white;
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  text-decoration: underline;
+}
+
+.hamburger {
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  padding: 4px;
+  border: black solid 1px;
+  background: white;
+  cursor: pointer;
+}
+
+.menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: black;
+  color: white;
+  list-style: none;
+  padding-top: 4rem;
+}
+
+
+
+.showMenu {
+  transform: translateY(0);
+}
+
+.welcome-img {
+  width: 50px;
+}
+
 .title {
-  font-size: 45px;
+  font-size: 35px;
   margin-right: 15px;
   font-family: "Inter-ExtraBold", sans-serif;
 }
