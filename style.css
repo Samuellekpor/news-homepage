@@ -25,7 +25,7 @@ body {
 }
 
 .big-container {
-  width: 375px;
+  max-width: 375px;
 }
 
 .logo {
@@ -37,6 +37,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+  width: 345px;
 }
 
 .menuItem {
@@ -53,11 +54,9 @@ body {
 }
 
 .hamburger {
-  position: fixed;
   z-index: 100;
   top: 1rem;
-  right: 1rem;
-  padding: 4px;
+  right: 0.5rem;
   cursor: pointer;
 }
 
@@ -91,11 +90,8 @@ body {
   transform: translateY(0);
 }
 
-.material-icons {
-  font-size: 40px;
-}
-
 .menuIcon, .closeIcon {
+  position: relative;
   margin-top: -5px;
   height: 35px;
 }
@@ -105,25 +101,30 @@ body {
 }
 
 .welcome-img {
-  width: 50px;
+  width: 345px;
 }
 
 .title {
   font-size: 35px;
-  margin-right: 15px;
+  margin: 20px 45px 15px 0;
   font-family: "Inter-ExtraBold", sans-serif;
 }
 
 .description {
   font-size: 15px;
+  line-height: 1.5em;
+  color: hsl(236, 13%, 42%);
 }
 
 .btn {
-  padding: 8px 20px;
+  padding: 15px 30px;
   text-transform: uppercase;
+  font-family: "Inter-bold", sans-serif;
   border: 0;
+  letter-spacing: .3rem;
   border-radius: 0%;
-  font-size: 14px;
+  font-size: 12px;
+  margin: 15px 40px 15px 0;
   background-color: hsl(5, 85%, 63%);
   color: hsl(0, 0%, 100%);
 }
