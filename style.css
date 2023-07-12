@@ -105,14 +105,14 @@ body {
 }
 
 .title {
-  font-size: 35px;
+  font-size: 40px;
   margin: 20px 45px 15px 0;
   font-family: "Inter-ExtraBold", sans-serif;
 }
 
 .description {
   font-size: 15px;
-  line-height: 1.5em;
+  line-height: 1.6em;
   color: hsl(236, 13%, 42%);
 }
 
@@ -127,4 +127,34 @@ body {
   margin: 15px 40px 15px 0;
   background-color: hsl(5, 85%, 63%);
   color: hsl(0, 0%, 100%);
+}
+
+.right-container {
+  margin-top: 30px;
+  padding: 25px;
+  background-color: hsl(240, 100%, 5%);
+  color: white;
+}
+
+.right-title {
+  color: hsl(35, 77%, 62%);
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.right-details-title {
+  font-size: 19px;
+  margin: 10px 0;
+}
+
+.right-details {
+  color: hsl(233, 8%, 79%);
+  font-size: 14px;
+  margin-right: 10px;
+  line-height: 1.5rem;
+}
+
+.separator {
+  border: 0.3px rgba(128, 128, 128, 0.704) solid;
+  margin: 30px 0;
 }
