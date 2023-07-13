@@ -215,3 +215,49 @@ body {
 .attribution a {
   color: hsl(228deg 45% 44%);
 }
+
+@media(min-width: 768px) {
+  .big-container {
+    margin: 50px 80px;
+    max-width: max-content;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .header {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .navbar, .menu {
+    width: 380px;
+  }
+
+  .menu {
+    transform: translateY(0);
+    z-index: 0;
+    margin-right: auto;
+    padding-top: 0;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .menu-item {
+    display: block;
+    margin: 5px 13px;
+    font-size: 11px;
+    color: black;
+    font-family: Inter-bold, sans-serif;
+    text-decoration: none;
+    color: hsl(233deg 8% 79%);
+    transition-delay: 0.2s;
+  }
+  
+  .menu-item:hover {
+    text-decoration: none;
+    color: hsl(5deg 85% 63%);
+  }
+}
