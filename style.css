@@ -26,6 +26,7 @@ body {
 
 .big-container {
   max-width: 375px;
+  margin-bottom: 50px;
 }
 
 .logo {
@@ -127,6 +128,7 @@ body {
   margin: 15px 40px 15px 0;
   background-color: hsl(5, 85%, 63%);
   color: hsl(0, 0%, 100%);
+  cursor: pointer;
 }
 
 .right-container {
@@ -134,6 +136,7 @@ body {
   padding: 25px;
   background-color: hsl(240, 100%, 5%);
   color: white;
+  margin-bottom: 60px;
 }
 
 .right-title {
@@ -157,4 +160,39 @@ body {
 .separator {
   border: 0.3px rgba(128, 128, 128, 0.704) solid;
   margin: 30px 0;
+}
+
+.cont {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.bottom-img {
+  width: 100px;
+  margin-right: 25px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
+.numbers {
+  font-size: 40px;
+  color: hsl(233, 8%, 79%);
+}
+
+.bottom-title {
+  font-size: 18px;
+  color: hsl(240, 100%, 5%);
+  font-family: "Inter-ExtraBold", sans-serif;
+  margin: 5px 0;
+}
+
+.bottom-desc {
+  color: hsl(236, 13%, 42%);
+  line-height: 1.8rem;
 }
