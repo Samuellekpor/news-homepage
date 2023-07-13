@@ -5,23 +5,23 @@
 }
 
 @font-face {
-  font-family: "Inter-bold";
+  font-family: Inter-bold;
   src: url('./assets/fonts/static/Inter-Bold.ttf');
 }
 
 @font-face {
-  font-family: "Inter-regular";
+  font-family: Inter-regular;
   src: url('./assets/fonts/static/Inter-Regular.ttf');
 }
 
 @font-face {
-  font-family: "Inter-ExtraBold";
+  font-family: Inter-ExtraBold;
   src: url('./assets/fonts/static/Inter-ExtraBold.ttf');
 }
 
 body {
   margin: 20px 15px;
-  font-family: "Inter-regular", sans-serif;
+  font-family: Inter-regular, sans-serif;
 }
 
 .big-container {
@@ -41,16 +41,16 @@ body {
   width: 345px;
 }
 
-.menuItem {
+.menu-item {
   display: block;
   margin: 1.5rem;
   font-size: 1rem;
   color: black;
-  font-family: "Inter-bold", sans-serif;
+  font-family: Inter-bold, sans-serif;
   text-decoration: none;
 }
 
-.menuItem:hover {
+.menu-item:hover {
   text-decoration: underline;
 }
 
@@ -62,12 +62,9 @@ body {
 }
 
 .dark {
-  background: rgba(28, 4, 4, 0.401);
+  background: rgb(28 4 4 / 40.1%);
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
   transition: transform 0.2s;
   transform: translateY(0);
 }
@@ -87,17 +84,17 @@ body {
   padding-top: 6rem;
 }
 
-.showMenu {
+.show-menu {
   transform: translateY(0);
 }
 
-.menuIcon, .closeIcon {
+.menu-icon, .close-icon {
   position: relative;
   margin-top: -5px;
   height: 35px;
 }
 
-.closeIcon {
+.close-icon {
   display: none;
 }
 
@@ -108,44 +105,44 @@ body {
 .title {
   font-size: 40px;
   margin: 20px 45px 15px 0;
-  font-family: "Inter-ExtraBold", sans-serif;
+  font-family: Inter-ExtraBold, sans-serif;
 }
 
 .description {
   font-size: 15px;
   line-height: 1.6em;
-  color: hsl(236, 13%, 42%);
+  color: hsl(236deg 13% 42%);
 }
 
 .btn {
   padding: 15px 30px;
   text-transform: uppercase;
-  font-family: "Inter-bold", sans-serif;
+  font-family: Inter-bold, sans-serif;
   border: 0;
   letter-spacing: .3rem;
   border-radius: 0%;
   font-size: 12px;
   margin: 15px 40px 15px 0;
-  background-color: hsl(5, 85%, 63%);
-  color: hsl(0, 0%, 100%);
+  background-color: hsl(5deg 85% 63%);
+  color: hsl(0deg 0% 100%);
   cursor: pointer;
   transition-delay: 0.2s;
 }
 
 .btn:hover {
-  background-color: hsl(240, 100%, 5%);
+  background-color: hsl(240deg 100% 5%);
 }
 
 .right-container {
   margin-top: 30px;
   padding: 25px;
-  background-color: hsl(240, 100%, 5%);
+  background-color: hsl(240deg 100% 5%);
   color: white;
   margin-bottom: 60px;
 }
 
 .right-title {
-  color: hsl(35, 77%, 62%);
+  color: hsl(35deg 77% 62%);
   font-size: 25px;
   margin-bottom: 20px;
 }
@@ -156,18 +153,18 @@ body {
 }
 
 .right-details-title:hover {
-  color: hsl(35, 77%, 62%);
+  color: hsl(35deg 77% 62%);
 }
 
 .right-details {
-  color: hsl(233, 8%, 79%);
+  color: hsl(233deg 8% 79%);
   font-size: 14px;
   margin-right: 10px;
   line-height: 1.5rem;
 }
 
 .separator {
-  border: 0.3px rgba(128, 128, 128, 0.704) solid;
+  border: 0.3px rgb(128 128 128 / 70.4%) solid;
   margin: 30px 0;
 }
 
@@ -191,22 +188,22 @@ body {
 
 .numbers {
   font-size: 40px;
-  color: hsl(233, 8%, 79%);
+  color: hsl(233deg 8% 79%);
 }
 
 .bottom-title {
   font-size: 18px;
-  color: hsl(240, 100%, 5%);
-  font-family: "Inter-ExtraBold", sans-serif;
+  color: hsl(240deg 100% 5%);
+  font-family: Inter-ExtraBold, sans-serif;
   margin: 5px 0;
 }
 
 .bottom-title:hover {
-  color: hsl(5, 85%, 63%);
+  color: hsl(5deg 85% 63%);
 }
 
 .bottom-desc {
-  color: hsl(236, 13%, 42%);
+  color: hsl(236deg 13% 42%);
   line-height: 1.8rem;
 }
 
@@ -216,5 +213,5 @@ body {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: hsl(228deg 45% 44%);
 }
