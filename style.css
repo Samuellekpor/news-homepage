@@ -129,6 +129,11 @@ body {
   background-color: hsl(5, 85%, 63%);
   color: hsl(0, 0%, 100%);
   cursor: pointer;
+  transition-delay: 0.2s;
+}
+
+.btn:hover {
+  background-color: hsl(240, 100%, 5%);
 }
 
 .right-container {
@@ -148,6 +153,10 @@ body {
 .right-details-title {
   font-size: 19px;
   margin: 10px 0;
+}
+
+.right-details-title:hover {
+  color: hsl(35, 77%, 62%);
 }
 
 .right-details {
@@ -192,7 +201,20 @@ body {
   margin: 5px 0;
 }
 
+.bottom-title:hover {
+  color: hsl(5, 85%, 63%);
+}
+
 .bottom-desc {
   color: hsl(236, 13%, 42%);
   line-height: 1.8rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
