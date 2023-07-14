@@ -102,6 +102,10 @@ body {
   width: 345px;
 }
 
+.welcome-img-dsk {
+  display: none;
+}
+
 .title {
   font-size: 40px;
   margin: 20px 45px 15px 0;
@@ -259,5 +263,28 @@ body {
   .menu-item:hover {
     text-decoration: none;
     color: hsl(5deg 85% 63%);
+  }
+
+  .welcome-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .welcome-img-dsk {
+    display: block;
+    height: 220px;
+  }
+
+  .welcome-img {
+    display: none;
+  }
+
+  .welcome-info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .right-container {
+    margin: 0;
   }
 }
