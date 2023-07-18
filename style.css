@@ -296,7 +296,7 @@ body {
   }
 
   .right-details-title {
-    font-size: 17px;
+    font-size: 16px;
     cursor: pointer;
   }
 
@@ -307,5 +307,34 @@ body {
 
   .separator {
     margin: 20px 0;
+  }
+
+  .bottom-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .bottom-title {
+    font-size: 14px;
+    margin: 8px 0;
+  }
+
+  .details {
+    justify-content: flex-start;
+    margin-right: 30px;
+  }
+
+  .numbers {
+    font-size: 25px;
+  }
+
+  .bottom-desc {
+    font-size: 12px;
+    line-height: 1.1rem;
+  }
+
+  .bottom-img {
+    width: 80px;
+    height: 100px;
   }
 }
