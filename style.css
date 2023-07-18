@@ -272,7 +272,8 @@ body {
 
   .welcome-img-dsk {
     display: block;
-    height: 220px;
+    width: 96%;
+    margin-right: 20px;
   }
 
   .welcome-img {
@@ -280,11 +281,31 @@ body {
   }
 
   .welcome-info {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .right-container {
     margin: 0;
+    padding: 20px;
+  }
+
+  .description {
+    margin: 25px 20px 15px 0;
+    font-size: 12px;
+  }
+
+  .right-details-title {
+    font-size: 17px;
+    cursor: pointer;
+  }
+
+  .right-details {
+    font-size: 11px;
+    line-height: 1.1rem;
+  }
+
+  .separator {
+    margin: 20px 0;
   }
 }
