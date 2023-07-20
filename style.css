@@ -88,7 +88,8 @@ body {
   transform: translateY(0);
 }
 
-.menu-icon, .close-icon {
+.menu-icon,
+.close-icon {
   position: relative;
   margin-top: -5px;
   height: 35px;
@@ -123,7 +124,7 @@ body {
   text-transform: uppercase;
   font-family: Inter-bold, sans-serif;
   border: 0;
-  letter-spacing: .3rem;
+  letter-spacing: 0.3rem;
   border-radius: 0%;
   font-size: 12px;
   margin: 15px 40px 15px 0;
@@ -220,7 +221,7 @@ body {
   color: hsl(228deg 45% 44%);
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   .big-container {
     margin: 50px 80px;
     max-width: max-content;
@@ -235,7 +236,8 @@ body {
     margin-bottom: 40px;
   }
 
-  .navbar, .menu {
+  .navbar,
+  .menu {
     width: 380px;
   }
 
@@ -253,13 +255,12 @@ body {
     display: block;
     margin: 5px 13px;
     font-size: 11px;
-    color: black;
     font-family: Inter-bold, sans-serif;
     text-decoration: none;
     color: hsl(233deg 8% 79%);
     transition-delay: 0.2s;
   }
-  
+
   .menu-item:hover {
     text-decoration: none;
     color: hsl(5deg 85% 63%);
