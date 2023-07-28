@@ -5,56 +5,94 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Frontend Mentor | News homepage</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  Home
-  New
-  Popular
-  Trending
-  Categories
-
-  The Bright Future of Web 3.0?
-
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
-
-  Read more
-
-  New 
-
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
-
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
+  <div class="big-container">
+    <div class="header">
+      <img src="./assets/images/logo.svg" alt="logo-img" class="logo">
+      <nav class="navbar">
+        <div class="menu-container">
+          <ul class="menu">
+            <li><a class="menu-item" href="#">Home</a></li>
+            <li><a class="menu-item" href="#">New</a></li>
+            <li><a class="menu-item" href="#">Popular</a></li>
+            <li><a class="menu-item" href="#">Trending</a></li>
+            <li><a class="menu-item" href="#">Categories</a></li>
+          </ul>
+        </div>
+        <a class="hamburger">
+          <img src="./assets/images/menu_black_48dp.svg" alt="menu-icon" class="menu-icon">
+          <img src="./assets/images/close_black_48dp.svg" alt="close-icon" class="close-icon">
+        </a>
+      </nav>
+    </div>
+    <div class="welcome-section">
+      <div class="left-container">
+        <img src="./assets/images/image-web-3-mobile.jpg" alt="welcome-img" class="welcome-img">
+        <img src="./assets/images/image-web-3-desktop.jpg" alt="welcome-img" class="welcome-img-dsk">
+        <div class="welcome-info">
+          <h1 class="title">The Bright Future of Web 3.0?</h1>
+          <div class="det">
+            <p class="description">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+              But is it really fulfilling its promise?</p>
+            <button class="btn" type="button">Read more</button>
+          </div>
+        </div>
+      </div>
+      <div class="right-container">
+        <h2 class="right-title"> New </h2>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+        <div class="details-container">
+          <h5 class="right-details-title">Hydrogen VS Electric Cars</h5>
+          <p class="right-details">Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <hr class="separator">
+        <div class="details-container">
+          <h5 class="right-details-title">The Downsides of AI Artistry</h5>
+          <p class="right-details">What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <hr class="separator">
+        <div class="details-container">
+          <h5 class="right-details-title">Is VC Funding Drying Up?</h5>
+          <p class="right-details">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-container">
+      <div class="cont">
+        <img src="./assets/images/image-retro-pcs.jpg" alt="" class="bottom-img">  
+        <div class="details">
+          <h3 class="numbers">01</h3>
+          <h4 class="bottom-title">Reviving Retro PCs</h4>
+          <p class="bottom-desc">What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="cont">
+        <img src="./assets/images/image-top-laptops.jpg" alt="" class="bottom-img">
+        <div class="details">
+          <h3 class="numbers">02</h3>
+          <h4 class="bottom-title">Top 10 Laptops of 2022</h4>
+          <p class="bottom-desc">Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="cont">
+        <img src="./assets/images/image-gaming-growth.jpg" alt="" class="bottom-img">
+        <div class="details">
+          <h3 class="numbers">03</h3>
+          <h4 class="bottom-title">The Growth of Gaming</h4>
+          <p class="bottom-desc">How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </div>
   </div>
+ 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Samuellekpor">Sammuel LEKPOR</a>.
+  </div>
+  <script src="index.js"></script>
 </body>
 </html>
